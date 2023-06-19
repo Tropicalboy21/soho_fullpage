@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    font-family: "Gibson", sans-serif;
+    font-weight: lighter;
+}
+
+a {
+    font-size: 19px !important;
+}
+
+.logo {
+    width: 140px;
+    height: 50px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.collapse {
+    width: 400px !important;
+}
+
+.bg {
+    background-image: url("../imgs/apartamentos-1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.navbar .navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    width: 0%;
+    content: "";
+    height: 2px;
+    transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+
+.nav-link-black {
+    background-color: black;
+}
+
+.nav-link-black a {
+    color: #fff !important;
+}
+
+.nav-link-black a:hover {
+    color: #fff !important;
+}
+
+.blackline .nav-item::after {
+    background-color: #fff !important;
+}
+
+
+/* Buttons */
+
+.container1 {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.center {
+    width: 180px;
+    height: 60px;
+    position: relative;
+}
+
+.btn {
+    font-family: "Gibson", sans-serif;
+    border-radius: 0 !important;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: rgba(255, 255, 255, 0.254);
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn span {
+    font-family: "Gibson", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.whatsapp {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    /*posicion en linea del icono*/
+    line-height: 20px;
+    /*tamaño del icono*/
+    font-size: 60px;
+    text-decoration: none;
+    transition: all 1s ease-in;
+}
+
+.whatsapp img {
+    width: 100%;
+}
+
+.whatsapp img:hover {
+    transform: scale(1.3);
+}
+
+
+/* text */
+
+.title {
+    font-family: "Gibson", sans-serif;
+    font-size: 100px !important;
+    font-weight: bold;
+    color: #fff !important;
+    text-shadow: #3B485B 1px 1px 0;
+}
+
+.txt-box p {
+    font-family: "Gibson", sans-serif;
+    font-weight: lighter;
+    font-size: 25px !important;
+}
+
+.txt-box h1 {
+    font-family: "Gibson", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.subtitle {
+    font-family: "Gibson", sans-serif;
+    font-size: 25px !important;
+    font-weight: light;
+    color: #fff !important;
+}
+
+.wrapper {
+    height: 700px;
+}
+
+.txt-box1 {
+    color: white;
+    font-family: 'Gibson', sans-serif;
+}
+
+.txt-box1 {
+    font-size: 20px;
+}
+
+.title h1 {
+    font-size: 85px;
+}
+
+
+/* Section Proyecto  */
+
+.banner1 {
+    background-image: url("../imgs/banner-2.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation: shrink 5s ease infinite alternate;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.147);
+}
+
+.sct-proyecto {
+    height: 50vh;
+    position: relative;
+}
+
+.sct-proyecto img {
+    height: 100%;
+}
+
+
+/* section 2 */
+
+.imagen {
+    width: 395px;
+    height: 265px;
+}
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* section 3 */
+
+section.pricing {
+    background-color: #3b485b68;
+}
+
+.pricing .card {
+    border: none;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}
+
+
+/* footer */
+
+.footer {
+    background-color: black;
+}
+
+.footer nav {
+    font-family: "Gibson", sans-serif;
+}
+
+i {
+    color: #fff;
+    padding: 5px;
+}

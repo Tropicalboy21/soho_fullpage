@@ -1,0 +1,33 @@
+@media(max-width: 390px) {
+    .sectionTitle {
+        font-size: 55px !important;
+    }
+
+    .txt-box1 .title h1 {
+        font-size: 75px !important;
+    }
+
+    .dev .txt-box p .parrafo {
+        font-size: 10px !important;
+    }
+
+    .txt-box .parrafo {
+        font-size: 16px !important;
+    }
+
+    .banner-3 {
+        height: 240px !important;
+    }
+
+    .txt-box .form div {
+        width: 100% !important;
+    }
+
+    .panel .txt-box {
+        width: 295px !important;
+    }
+
+    .border1 {
+        margin-left: 57px !important;
+    }
+}

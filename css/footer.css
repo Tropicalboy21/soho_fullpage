@@ -1,0 +1,14 @@
+/* footer */
+
+.footer {
+    background-color: black;
+}
+
+.footer nav {
+    font-family: "Gibson", sans-serif;
+}
+
+i {
+    color: #fff;
+    padding: 5px;
+}

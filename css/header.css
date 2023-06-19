@@ -1,0 +1,89 @@
+/* Header */
+
+a {
+    font-size: 19px !important;
+}
+
+.logo {
+    width: 140px;
+    height: 50px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.collapse {
+    width: 400px !important;
+}
+
+.bg-home {
+    background-image: url("../imgs/banner-1.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.bg-proyecto {
+    background-image: url("../imgs/proyecto-1.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    box-shadow: 7px 10px 113px -15px rgba(0, 0, 0, 0.75) inset !important;
+    -webkit-box-shadow: 7px 10px 113px -15px rgba(0, 0, 0, 0.75) inset !important;
+    -moz-box-shadow: 7px 10px 113px -15px rgba(0, 0, 0, 0.75) inset !important;
+
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.navbar .navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    width: 0%;
+    content: "";
+    height: 2px;
+    transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+
+.nav-link-black {
+    background-color: black;
+}
+
+.nav-link-black a {
+    color: #fff !important;
+}
+
+.nav-link-black a:hover {
+    color: #fff !important;
+}
+
+.blackline .nav-item::after {
+    background-color: #fff !important;
+}

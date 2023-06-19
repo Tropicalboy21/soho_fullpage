@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    font-family: "Gibson", sans-serif;
+    font-weight: lighter;
+}
+
+a {
+    font-size: 19px !important;
+}
+
+.logo {
+    width: 140px;
+    height: 50px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.collapse {
+    width: 400px !important;
+}
+
+.bg {
+    background-image: url("../imgs/ubicacion-2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.213);
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.navbar .navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    width: 0%;
+    content: "";
+    height: 2px;
+    transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+
+.nav-link-black {
+    background-color: black;
+}
+
+.nav-link-black a {
+    color: #fff !important;
+}
+
+.nav-link-black a:hover {
+    color: #fff !important;
+}
+
+.blackline .nav-item::after {
+    background-color: #fff !important;
+}
+
+
+/* Buttons */
+
+.container1 {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.center {
+    width: 180px;
+    height: 60px;
+    position: relative;
+}
+
+.btn {
+    font-family: "Gibson", sans-serif;
+    border-radius: 0 !important;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: rgba(255, 255, 255, 0.254);
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn span {
+    font-family: "Gibson", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.whatsapp {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    /*posicion en linea del icono*/
+    line-height: 20px;
+    /*tamaño del icono*/
+    font-size: 60px;
+    text-decoration: none;
+    transition: all 1s ease-in;
+}
+
+.whatsapp img {
+    width: 100%;
+}
+
+.whatsapp img:hover {
+    transform: scale(1.3);
+}
+
+
+/* text */
+
+.txt-box {
+    font-family: "Gibson", sans-serif;
+}
+
+.txt-box .title {
+    font-size: 50px !important;
+    font-weight: bold;
+}
+
+.txt-box .parrafo {
+    font-size: 22px !important;
+    font-weight: lighter;
+}
+
+.txt-box .tl {
+    font-family: "Gibson", sans-serif;
+    font-size: 21px !important;
+    font-weight: lighter;
+}
+
+.txt-box .tb {
+    font-family: "Gibson", sans-serif;
+    font-size: 21px !important;
+    font-weight: bold;
+}
+
+.txt-box p {
+    font-family: "Gibson", sans-serif;
+    font-weight: lighter;
+    font-size: 25px !important;
+}
+
+.txt-box h1 {
+    font-family: "Gibson", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.wrapper {
+    height: 700px;
+}
+
+.txt-box1 {
+    color: white;
+    font-family: 'Gibson', sans-serif;
+}
+
+.txt-box1 {
+    font-size: 20px;
+}
+
+.title h1 {
+    font-size: 85px;
+}
+
+
+/* Section Proyecto  */
+
+.banner1 {
+    background-image: url("../imgs/banner-2.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation: shrink 5s ease infinite alternate;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.147);
+}
+
+.sct-proyecto {
+    height: 50vh;
+    position: relative;
+}
+
+.sct-proyecto img {
+    height: 100%;
+}
+
+
+/* Section Apartamentos */
+
+.banner2 {
+    background-image: url("../imgs/apartamento-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation: shrink 5s ease infinite alternate;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.147);
+}
+
+
+/* Section Amenidades */
+
+.banner3 {
+    background-image: url("../imgs/banner-3.png");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    animation: shrink 3s ease infinite alternate;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.197);
+}
+
+.box {
+    padding: 10px;
+    height: 400px;
+    width: 100%;
+}
+
+.box img {
+    width: 100%;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: black;
+}
+
+.footer nav {
+    font-family: "Gibson", sans-serif;
+}
+
+i {
+    color: #fff;
+    padding: 5px;
+}
+
+@keyframes shrink {
+    0% {
+        background-size: 110% 110%;
+    }
+    100% {
+        background-size: 100% 100%;
+    }
+}
