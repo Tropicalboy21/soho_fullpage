@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    font-family: "Gibson", sans-serif;
+    font-weight: lighter;
+}
+
+/* Buttons */
+
+.container1 {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.center {
+    width: 180px;
+    height: 60px;
+    position: relative;
+}
+
+.btn {
+    font-family: "Gibson", sans-serif;
+    border-radius: 0 !important;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: rgba(255, 255, 255, 0.254);
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn span {
+    font-family: "Gibson", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.whatsapp {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    /*posicion en linea del icono*/
+    line-height: 20px;
+    /*tamaño del icono*/
+    font-size: 60px;
+    text-decoration: none;
+    transition: all 1s ease-in;
+}
+
+.whatsapp img {
+    width: 100%;
+}
+
+.whatsapp img:hover {
+    transform: scale(1.3);
+}
+
+
+/* text */
+
+.title {
+    font-family: "Gibson", sans-serif;
+    font-size: 100px !important;
+    font-weight: bold;
+    color: #fff !important;
+    text-shadow: #3B485B 1px 1px 0;
+}
+
+.txt-box p {
+    font-family: "Gibson", sans-serif;
+    font-weight: lighter;
+    font-size: 25px !important;
+}
+
+.txt-box h1 {
+    font-family: "Gibson", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.subtitle {
+    font-family: "Gibson", sans-serif;
+    font-size: 25px !important;
+    font-weight: light;
+    color: #fff !important;
+}
+
+
+/* Section Proyecto  */
+
+.banner1 {
+    background-image: url("../imgs/banner-2.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation: shrink 5s ease infinite alternate;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.147);
+    margin-top: 2.5px;
+}
+
+.sct-proyecto {
+    height: 50vh;
+    position: relative;
+}
+
+.sct-proyecto img {
+    height: 100%;
+}
+
+
+/* Section Apartamentos */
+
+.banner2 {
+    background-image: url("../imgs/apartamento-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation: shrink 5s ease infinite alternate;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.147);
+}
+
+
+/* Section Amenidades */
+
+.banner3 {
+    background-image: url("../imgs/amenidades-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation: shrink 5s ease infinite alternate;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.197);
+}
+
+
+/* footer */
+
+.footer {
+    background-color: black;
+}
+
+.footer nav {
+    font-family: "Gibson", sans-serif;
+}
+
+i {
+    color: #fff;
+    padding: 5px;
+}
